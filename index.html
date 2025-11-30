@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vinilos & Vibra</title>
+  <link rel="stylesheet" href="./css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  </head>
+<body>
+
+  <header>
+  <div class="header-container">
+    <div class="logo-container">
+      <img class="logo" src="./images/logo.jpg" alt="logo">
+    </div>
+
+    <div class="center-content">
+      <h1>Vinilos & Vibra</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="carrito.html">Carrito</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
+  <main class="producto-grid">
+    <div class="producto-card">
+      <img src="./images/senjutsuIronMaiden.jpg" alt="Senjutsu">
+      <h3>Senjutsu</h3>
+      <p> Iron Maiden</p>
+      <strong>$75.000</strong>
+      <button onclick="agregarAlCarrito('Senjutsu', 75000)">Agregar al carrito</button>
+
+      <a href="tracklistSenjutsu.html" class="tracklist-btn">Ver Tracklist</a>
+    </div>
+
+    <div class="producto-card">
+      <img src="./images/oktubre.jpg" alt="Oktubre">
+      <h3>Oktubre</h3>
+      <p> Patricio Rey y sus Redonditos de Ricota</p>
+      <strong>$175.000</strong>
+      <button onclick="agregarAlCarrito('Oktubre', 175000)">Agregar al carrito</button>
+
+      <a href="trackListOktubre.html" class="tracklist-btn">Ver Tracklist</a>
+    </div>
+    <div class="producto-card">
+      <img src="./images/RHLM.jpg" alt="Real Hasta La Muerte">
+      <h3>Real Hasta La Muerte</h3>
+      <p> ANUEL AA
+
+      </p>
+      <strong>$ 150.000</strong>
+      <button onclick="agregarAlCarrito('Real Hasta La Muerte', 150000)">Agregar al carrito</button>
+
+      <a href="tracklistRHLM.html" class="tracklist-btn">Ver Tracklist</a>
+
+    </div>
+
+    
+    <div class="producto-card">
+      <img src="./images/metallica.jpg" alt="the Black Album">
+      <h3>The Black Album </h3>
+      <p>METALLICA</p>
+      <strong>$120.000</strong>
+      <button onclick="agregarAlCarrito('The Black Album', 120000)">Agregar al carrito</button>
+
+      <a href="tracklistTheBlackAlbum.html" class="tracklist-btn">Ver Tracklist</a>
+    </div>
+
+    
+    <div class="producto-card">
+      <img src="./images/NSLQVAPM.jpg" alt="NADIE SABE LO QUE VA A PASAR MAÑANA">
+      <h3>NADIE SABE LO QUE VA A PASAR MAÑANA</h3>
+      <p> BAD BUNNY / BENITO</p>
+      <strong>$75.000</strong>
+      <button onclick="agregarAlCarrito('Nadie Sabe Lo Que Va A Pasar Mañana', 75000)">Agregar al carrito</button>
+
+      <a href="tracklistNSLQVAPM.html" class="tracklist-btn">Ver Tracklist</a>
+      
+    </div>
+
+    <div class="producto-card">
+      <img src="./images/And_Justice_for_All.jpg" alt="And Justice For All">
+      <h3>And Justice For All</h3>
+      <p> METALLICA</p>
+      <strong>$160.000</strong>
+      <button onclick="agregarAlCarrito('And Justice For All', 160000)">Agregar al carrito</button>
+
+      <a href="tracklistAndJusticeForAll.htm" class="tracklist-btn">Ver Tracklist</a>
+    </div>
+
+    
+  </main>
+  
+<section class="reseñas-section">
+  <h2>Reseñas de Clientes</h2>
+  <div class="reseñas-grid">
+
+    <div class="reseña-card">
+      <p class="reseña-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis consequatur incidunt nostrum deserunt doloremque rem numquam earum quos ea molestias, reiciendis consectetur eveniet sunt, minima voluptatum alias sit, ullam mollitia!</p>
+      <p class="reseña-autor">- Juan</p>
+    </div>
+
+    <div class="reseña-card">
+      <p class="reseña-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita natus nobis est in ut labore cumque quia voluptatum, eveniet omnis asperiores consectetur error illo debitis eos soluta similique obcaecati ullam?</p>
+      <p class="reseña-autor">- Esteban</p>
+    </div>
+
+    <div class="reseña-card">
+      <p class="reseña-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. A omnis impedit dolorum cupiditate maxime aut unde nisi temporibus porro laudantium molestiae quis, eveniet doloremque similique, quidem ipsum autem id illo.</p>
+      <p class="reseña-autor">- Pedro</p>
+    </div>
+
+  </div>
+</section>
+
+  </section>
+
+  <footer>
+    <p> &copy; 2025 Todos los derechos reservados Vinilos & Vibra.</p>
+  </footer>
+
+  <div id="notificacion" class="notificacion">Producto agregado al carrito</div>
+
+<script src="./js/carrito.js"></script>
+
+</body>
+</html>

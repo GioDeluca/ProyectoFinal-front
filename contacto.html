@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>contactenos</title>
+  <link rel="stylesheet" href="./css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <div class="header-container">
+      <div class="logo-container">
+        <img class="logo" src="./images/logo.jpg" alt="logo">
+      </div>
+
+      <div class="center-content">
+        <h1>Vinilos & Vibra</h1>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="carrito.html">Carrito</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main class="contacto-container">
+  <div class="contacto-left">
+    <h2>¿Hablamos?</h2>
+    <p>Si tenés alguna consulta o querés hacer un pedido especial ¡no dudes en escribirnos!</p>
+    <p>Estamos para ayudarte a encontrar el vinilo perfecto.</p>
+  </div>
+
+  <div class="contacto-right">
+    <form class="contacto-form" action="https://formspree.io/f/mqaydnkk" method="post"  autocomplete="off">
+      <label for="nombre">Nombre</label>
+      <input type="text" id="nombre" name="nombre" required>
+
+      <label for="email">Correo electrónico</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="mensaje">Mensaje</label>
+      <textarea id="mensaje" name="mensaje" required></textarea>
+
+      <button type="submit">Enviar mensaje</button>
+      <button type="reset">Borrar</button>
+    </form>
+  </div>
+</main>
+
+
+  <footer>
+    <p> &copy; 2025 Todos los derechos reservados Vinilos & Vibra.</p>
+  </footer>
+
+</body>
+</html>
